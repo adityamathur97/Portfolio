@@ -1,0 +1,19 @@
+.aboutCard {
+	margin: auto;
+	margin-top: 80px;
+	width: 80%;
+	display: flex;
+	border: 1px solid black;
+}
+.aboutCard div {
+	padding: 0%;
+}
+.aboutText {
+	flex: 1;
+}
+.aboutImg {
+	flex: 3;
+}
+.aboutLogo {
+	border-radius: 50% 75% 50% 75%;
+}
