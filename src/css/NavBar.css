@@ -1,6 +1,7 @@
 nav {
 	width: fit-content;
 	margin: 0 auto;
+	background-color: white;
 }
 .navbar-brand {
 	padding-right: 30%;
@@ -16,4 +17,7 @@ nav {
 #logo {
 	width: 5%;
 	height: 5%;
+}
+.navbar {
+	z-index: 9999;
 }
