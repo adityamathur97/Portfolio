@@ -8,12 +8,18 @@
 .aboutCard div {
 	padding: 0%;
 }
-.aboutText {
-	flex: 1;
-}
-.aboutImg {
-	flex: 3;
-}
 .aboutLogo {
 	border-radius: 50% 75% 50% 75%;
+}
+.cardHeading {
+	width: fit-content;
+	font-size: 3em;
+	padding-left: 4%;
+	margin-top: 8%;
+}
+.cardDesc {
+	width: 90%;
+	text-align: left;
+	padding-left: 4%;
+	margin-top: 3%;
 }
