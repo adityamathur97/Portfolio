@@ -3,12 +3,16 @@ import './App.css';
 
 import NavBar from './components/NavBar';
 import About from './components/About';
+import SkyLine from './components/SkyLine';
 
 function App() {
 	return (
 		<div className="App">
 			<NavBar />
-			<About />
+			<div className="bodyContent">
+				<About />
+			</div>
+			<SkyLine />
 		</div>
 	);
 }
