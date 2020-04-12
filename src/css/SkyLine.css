@@ -7,3 +7,16 @@
 	position: fixed;
 	bottom: 0;
 }
+.foot {
+	width: fit-content;
+	bottom: 0;
+	right: 0;
+	position: fixed;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	color: white;
+}
+.foot img {
+	width: 20%;
+	height: auto;
+}

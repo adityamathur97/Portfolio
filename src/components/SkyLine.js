@@ -8,7 +8,13 @@ class SkyLine extends React.Component {
 	}
 
 	render() {
-		return <div className="skyLineDiv" />;
+		return (
+			<div className="skyLineDiv">
+				<p className="foot">
+					Made with <img src={require('../images/favicon.ico')} alt="React Logo" />
+				</p>
+			</div>
+		);
 	}
 }
 
