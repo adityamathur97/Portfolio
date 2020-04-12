@@ -1,0 +1,9 @@
+.skyLineDiv {
+	background-image: url(../images/skyline-purple.png);
+	width: 100%;
+	height: 80px;
+	background-repeat: repeat;
+	background-size: contain;
+	position: fixed;
+	bottom: 0;
+}
