@@ -18,8 +18,8 @@ class NavBar extends React.Component {
 
 	render() {
 		return (
-			<nav className="navbar fixed-top navbar-expand-lg navbar-light">
-				<a className="navbar-brand" href="#">
+			<nav className="navbar navbar-expand-lg navbar-light">
+				<a className="navbar-brand hoverColor" href="#">
 					<img id="logo" src={require('../images/code.svg')} alt="logo" /> Portfolio
 				</a>
 				<button
@@ -38,35 +38,35 @@ class NavBar extends React.Component {
 					<div className="navbar-nav">
 						<a
 							id="about"
-							className="nav-item nav-link myLinks"
+							className="nav-item nav-link myLinks hoverColor"
 							onClick={this.changeActive('#about')}
 							href="#"
 						>
-							<i className="fas fa-smile" /> About <span className="sr-only">(current)</span>
+							<i className="fas fa-smile hoverColor" /> About <span className="sr-only">(current)</span>
 						</a>
 						<a
 							id="projects"
-							className="nav-item nav-link  myLinks"
+							className="nav-item nav-link  myLinks hoverColor"
 							onClick={this.changeActive('#projects')}
 							href="#"
 						>
-							<i className="fas fa-project-diagram" /> Projects
+							<i className="fas fa-project-diagram hoverColor" /> Projects
 						</a>
 						<a
 							id="resume"
-							className="nav-item nav-link  myLinks"
+							className="nav-item nav-link  myLinks hoverColor"
 							onClick={this.changeActive('#resume')}
 							href="#"
 						>
-							<i className="fas fa-file" /> Resume
+							<i className="fas fa-file hoverColor" /> Resume
 						</a>
 						<a
 							id="contact"
-							className="nav-item nav-link  myLinks"
+							className="nav-item nav-link  myLinks hoverColor"
 							onClick={this.changeActive('#contact')}
 							href="#"
 						>
-							<i className="fas fa-phone" /> Contact
+							<i className="fas fa-phone  hoverColor" /> Contact
 						</a>
 					</div>
 				</div>
