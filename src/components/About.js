@@ -33,7 +33,7 @@ class About extends React.Component {
 
 	render() {
 		return (
-			<div className="card mb-3 aboutCard">
+			<div className="card mb-3 aboutCard shadow p-3 mb-5 bg-white rounded">
 				<div className="row no-gutters">
 					<div className="col-md-7">
 						<div className="card-body">
@@ -47,9 +47,6 @@ class About extends React.Component {
 							<button type="button" class="btn btn-primary btn-lg contButton">
 								Continue
 							</button>
-							<p className="card-text">
-								<small className="text-muted">Last updated 3 mins ago</small>
-							</p>
 						</div>
 					</div>
 					<div className="col-md-5">
