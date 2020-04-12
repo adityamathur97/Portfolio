@@ -2,6 +2,7 @@ import React from 'react';
 
 import '../css/About.css';
 import $ from 'jquery';
+import CircleImage from './CircleImage';
 
 class About extends React.Component {
 	constructor() {
@@ -34,6 +35,7 @@ class About extends React.Component {
 	render() {
 		return (
 			<div className="card mb-3 aboutCard shadow p-3 mb-5 bg-white rounded">
+				<CircleImage />
 				<div className="row no-gutters">
 					<div className="col-md-7">
 						<div className="card-body">
@@ -42,9 +44,9 @@ class About extends React.Component {
 							</h1>
 							<p className="card-text cardDesc">
 								I'm a graduate student studying Master's in Computer Science at University of Texas at
-								Dallas.
+								Dallas. Also I love Ramen and making applications.
 							</p>
-							<button type="button" class="btn btn-primary btn-lg contButton">
+							<button type="button" class="btn btn-lg contButton  shadow-sm">
 								Continue
 							</button>
 						</div>
