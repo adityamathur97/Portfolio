@@ -16,18 +16,29 @@ class About extends React.Component {
 				$('#changeText').fadeOut(3500);
 			});
 		});
+		var str = [ 'Aditya', 'Mathur', 'A Developer' ];
+		var text;
+		var i = 1;
 		setInterval(function() {
-			var text;
 			$('#changeText').fadeOut(3500, function() {
 				$('#changeText').empty();
-				if (this.textTurn == true) {
-					text = 'Aditya';
-				} else {
-					text = 'A Developer';
+
+				text = str[i % str.length];
+				i++;
+				if (i == 3) {
+					i = 0;
 				}
 				$('#changeText').append(text);
 				$('#changeText').fadeIn(3500);
-				this.textTurn = !this.textTurn;
+
+				// if (this.textTurn == true) {
+				// 	text = 'Aditya';
+				// } else {
+				// 	text = 'A Developer';
+				// }
+				// $('#changeText').append(text);
+				// $('#changeText').fadeIn(3500);
+				// this.textTurn = !this.textTurn;
 			});
 		}, 7000);
 	}
@@ -40,7 +51,7 @@ class About extends React.Component {
 					<div className="col-md-7">
 						<div className="card-body">
 							<h1 className="card-title cardHeading">
-								Hello Folks! I'M <span id="changeText">Aditya</span>
+								Hello Folks! I'm <span id="changeText">Aditya</span>
 							</h1>
 							<p className="card-text cardDesc">
 								I'm a graduate student studying Master's in Computer Science at University of Texas at
