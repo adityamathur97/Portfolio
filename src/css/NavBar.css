@@ -21,3 +21,6 @@ nav {
 .navbar {
 	z-index: 9999;
 }
+.hoverColor:hover {
+	color: #ffdb8a;
+}

@@ -1,4 +1,5 @@
 import React from 'react';
+import aboutData from '../data/about.json';
 
 import '../css/About.css';
 import $ from 'jquery';
@@ -7,10 +8,12 @@ import CircleImage from './CircleImage';
 class About extends React.Component {
 	constructor() {
 		super();
-		this.textTurn = false;
+		this.loadAbout = this.loadAbout.bind(this);
 	}
 
 	componentDidMount() {
+		this.loadAbout();
+
 		$('#changeText').fadeOut(0, function() {
 			$('#changeText').fadeIn(3500, function() {
 				$('#changeText').fadeOut(3500);
@@ -25,40 +28,34 @@ class About extends React.Component {
 
 				text = str[i % str.length];
 				i++;
-				if (i == 3) {
+				if (i === 3) {
 					i = 0;
 				}
 				$('#changeText').append(text);
 				$('#changeText').fadeIn(3500);
-
-				// if (this.textTurn == true) {
-				// 	text = 'Aditya';
-				// } else {
-				// 	text = 'A Developer';
-				// }
-				// $('#changeText').append(text);
-				// $('#changeText').fadeIn(3500);
-				// this.textTurn = !this.textTurn;
 			});
 		}, 7000);
 	}
 
+	loadAbout() {
+		$(aboutData).each(function() {
+			$('.cardDesc').append(this.text);
+		});
+	}
+
 	render() {
 		return (
-			<div className="card mb-3 aboutCard shadow p-3 mb-5 bg-white rounded">
+			<div id="aboutMe" className="card mb-3 aboutCard shadow p-3 mb-5 bg-white rounded">
 				<CircleImage />
 				<div className="row no-gutters">
-					<div className="col-md-7">
+					<div className="col-md-7 textDiv">
 						<div className="card-body">
 							<h1 className="card-title cardHeading">
 								Hello Folks! I'm <span id="changeText">Aditya</span>
 							</h1>
-							<p className="card-text cardDesc">
-								I'm a graduate student studying Master's in Computer Science at University of Texas at
-								Dallas. Also I love Ramen and making applications.
-							</p>
-							<button type="button" class="btn btn-lg contButton  shadow-sm">
-								Continue
+							<p className="card-text cardDesc" />
+							<button type="button" className="btn btn-lg contButton  shadow-sm">
+								Resume <i className="fas fa-file-download" />
 							</button>
 						</div>
 					</div>

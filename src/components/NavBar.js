@@ -40,7 +40,7 @@ class NavBar extends React.Component {
 							id="about"
 							className="nav-item nav-link myLinks hoverColor"
 							onClick={this.changeActive('#about')}
-							href="#"
+							href="#aboutMe"
 						>
 							<i className="fas fa-smile hoverColor" /> About <span className="sr-only">(current)</span>
 						</a>
@@ -48,7 +48,7 @@ class NavBar extends React.Component {
 							id="projects"
 							className="nav-item nav-link  myLinks hoverColor"
 							onClick={this.changeActive('#projects')}
-							href="#"
+							href="#projectLink"
 						>
 							<i className="fas fa-project-diagram hoverColor" /> Projects
 						</a>

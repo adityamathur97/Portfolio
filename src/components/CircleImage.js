@@ -3,9 +3,9 @@ import React from 'react';
 import '../css/CircleImage.css';
 
 class CircleImage extends React.Component {
-	constructor() {
-		super();
-	}
+	// constructor() {
+	// 	super();
+	// }
 
 	render() {
 		return (

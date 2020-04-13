@@ -3,9 +3,9 @@ import React from 'react';
 import '../css/SkyLine.css';
 
 class SkyLine extends React.Component {
-	constructor() {
-		super();
-	}
+	// constructor() {
+	// 	super();
+	// }
 
 	render() {
 		return (
