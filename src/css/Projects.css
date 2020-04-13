@@ -1,0 +1,35 @@
+.projectsContainer {
+	margin: auto;
+	margin-top: 12%;
+	width: 80%;
+}
+.clipIcon {
+	font-size: 3em;
+	color: #61688e;
+}
+#projectLink {
+	color: #b4b9e7;
+	margin-top: 1%;
+}
+.clipIcon:hover {
+	color: #b4b9e7;
+}
+
+.projectTitle,
+.projectDate,
+.projectDesc {
+	width: max-content;
+	margin-left: 5%;
+}
+
+.projectTitle {
+	margin-top: 5%;
+	color: #61688e;
+}
+.projectTitle:hover {
+	color: #ffdb8a;
+}
+
+.projectTitleLink:hover {
+	text-decoration: none;
+}
