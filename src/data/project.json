@@ -14,14 +14,14 @@
 	{
 		"heading": "B+ Tree Indexing",
 		"time": "October 2019",
-		"about": "",
+		"about": "Wrote a C++ program to implement B+ tree indexing of records in a text file. The program reads the text file containing data and builds the index, treating the first n columns as the key, where n is specified by the user. The program reads block of data, manipulate it, write it back out as a block. The program uses long(8-byte) record address for pointers. The program supports following operations - create an index file, find a record by index, insert a new text record and list sequential records.",
 		"link": "https://github.com/adityamathur97/Bplus-Tree-Indexing"
 	},
 	{
 		"heading": "Library Management System",
 		"time": "September 2019",
 		"about": "",
-		"link": ""
+		"link": "https://github.com/adityamathur97/Library-Management-System"
 	},
 	{
 		"heading": "Mini-Xception CNN Model",

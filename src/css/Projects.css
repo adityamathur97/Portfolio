@@ -24,14 +24,14 @@
 
 .projectTitle {
 	margin-top: 5%;
-	color: #61688e;
 	text-align: left;
 }
-.projectTitle:hover {
-	color: #ffdb8a;
+.projectTitleLink {
+	color: #61688e;
 }
 
 .projectTitleLink:hover {
+	color: #ffdb8a;
 	text-decoration: none;
 }
 
