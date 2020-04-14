@@ -8,12 +8,11 @@ class Projects extends React.Component {
 	componentDidMount() {
 		$(ProjectData).each(function(key, value) {
 			var eachProject =
-				'<div class="projectDiv">' +
-				'<a class="projectTitleLink" target="_blank" href=' +
+				'<div class="projectDiv"><h2 class="projectTitle"><a class="projectTitleLink" target="_blank" href=' +
 				value.link +
-				'><h2 class="projectTitle">' +
+				'>' +
 				value.heading +
-				'</h2></a>' +
+				'</a></h2>' +
 				'<p class="projectDate">' +
 				value.time +
 				'</p>' +
