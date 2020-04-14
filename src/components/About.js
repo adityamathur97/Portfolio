@@ -45,7 +45,7 @@ class About extends React.Component {
 
 	render() {
 		return (
-			<div id="aboutMe" className="card mb-3 aboutCard shadow p-3 mb-5 bg-white rounded">
+			<div className="card mb-3 aboutCard shadow p-3 mb-5 bg-white rounded">
 				<CircleImage />
 				<div className="row no-gutters">
 					<div className="col-md-7 textDiv">

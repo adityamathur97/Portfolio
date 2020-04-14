@@ -7,7 +7,7 @@
 	font-size: 3em;
 	color: #61688e;
 }
-#projectLink {
+.projectHeading {
 	color: #b4b9e7;
 	margin-top: 1%;
 }
@@ -18,13 +18,14 @@
 .projectTitle,
 .projectDate,
 .projectDesc {
-	width: max-content;
+	width: fit-content;
 	margin-left: 5%;
 }
 
 .projectTitle {
 	margin-top: 5%;
 	color: #61688e;
+	text-align: left;
 }
 .projectTitle:hover {
 	color: #ffdb8a;
@@ -32,4 +33,10 @@
 
 .projectTitleLink:hover {
 	text-decoration: none;
+}
+
+.projectDesc {
+	text-align: justify;
+	margin-right: 5%;
+	font-size: 1.2em;
 }

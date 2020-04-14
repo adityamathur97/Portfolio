@@ -2,24 +2,24 @@
 	{
 		"heading": "Portfolio",
 		"time": "April 2020",
-		"about": "Lorem Ipsum",
+		"about": "Developed a Portfolio website using React JS. I made this website as a side project while learning React. The website uses Bootstrap for styyling and to make the website responsive for different platforms. Jquery is used for DOM tree traversal and manipulation, as well as some event handling, CSS animation, and AJAX. The text data is retrived asynchronously using AJAX calls.",
 		"link": "https://github.com/adityamathur97/Portfolio"
 	},
 	{
 		"heading": "Stock Market Web Application",
-		"time": "",
-		"about": "",
-		"link": ""
+		"time": "November 2019",
+		"about": "Created a stock exchange web application that allows users to buy and sell stocks. Developed a scalable 3-tier responsive web application based on SOA principals. Also implemented backend RESTful APIs for stock trading. User profile management and Bank transactions were maintened by a MySQL database. Made asynchronous AJAX calls to Stock brokerage web services for fetching data. Also implemented distributed caching using Memcached.",
+		"link": "https://github.com/adityamathur97/StockMarketWebsite-master"
 	},
 	{
 		"heading": "B+ Tree Indexing",
-		"time": "",
+		"time": "October 2019",
 		"about": "",
-		"link": ""
+		"link": "https://github.com/adityamathur97/Bplus-Tree-Indexing"
 	},
 	{
 		"heading": "Library Management System",
-		"time": "",
+		"time": "September 2019",
 		"about": "",
 		"link": ""
 	},

@@ -9,7 +9,7 @@ class CircleImage extends React.Component {
 
 	render() {
 		return (
-			<div className="userImageDiv">
+			<div id="aboutMe" className="userImageDiv">
 				<img className="userImage" src={require('../images/me.jpg')} alt="Aditya" />
 			</div>
 		);

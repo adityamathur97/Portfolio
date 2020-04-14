@@ -56,7 +56,8 @@ class NavBar extends React.Component {
 							id="resume"
 							className="nav-item nav-link  myLinks hoverColor"
 							onClick={this.changeActive('#resume')}
-							href="#"
+							href={require('../resume/Resume_Aditya_Mathur.pdf')}
+							target="_blank"
 						>
 							<i className="fas fa-file hoverColor" /> Resume
 						</a>
