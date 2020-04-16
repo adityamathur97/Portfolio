@@ -19,7 +19,7 @@ class About extends React.Component {
 				$('#changeText').fadeOut(3500);
 			});
 		});
-		var str = [ 'Aditya', 'Mathur', 'A Developer' ];
+		var str = [ 'Aditya Mathur', 'A Developer' ];
 		var text;
 		var i = 1;
 		setInterval(function() {
@@ -28,7 +28,7 @@ class About extends React.Component {
 
 				text = str[i % str.length];
 				i++;
-				if (i === 3) {
+				if (i === str.length) {
 					i = 0;
 				}
 				$('#changeText').append(text);
@@ -51,7 +51,7 @@ class About extends React.Component {
 					<div className="col-md-7 textDiv">
 						<div className="card-body">
 							<h1 className="card-title cardHeading">
-								Hello Folks! I'm <span id="changeText">Aditya</span>
+								Hello Folks! I'm <span id="changeText">Aditya Mathur</span>
 							</h1>
 							<p className="card-text cardDesc" />
 							<button type="button" className="btn btn-lg contButton  shadow-sm">

@@ -2,7 +2,7 @@
 	{
 		"heading": "Portfolio",
 		"time": "April 2020",
-		"about": "Developed a Portfolio website using React JS. I made this website as a side project while learning React. The website uses Bootstrap for styyling and to make the website responsive for different platforms. Jquery is used for DOM tree traversal and manipulation, as well as some event handling, CSS animation, and AJAX. The text data is retrived asynchronously using AJAX calls.",
+		"about": "Developed a Portfolio website using React JS. I made this website as a side project while learning React. The website uses Bootstrap for styling and to make the website responsive for different platforms. Jquery is used for DOM tree traversal and manipulation, as well as some event handling, CSS animation, and AJAX. The text data is retrived asynchronously using AJAX calls.",
 		"link": "https://github.com/adityamathur97/Portfolio"
 	},
 	{
@@ -20,31 +20,31 @@
 	{
 		"heading": "Library Management System",
 		"time": "September 2019",
-		"about": "",
+		"about": "Designed a scaled-back library program that lets you add, change, search and delete books. GUI of the program was created using Swing widget toolkit. The program handles multiple copies of books in multiple formats. SQL injection is handled using prepared statements. Most of the constraints were set on database side. Certain validations or constraints are set on UI side like edition of a book can't have alphabet in it, author name doesn't accept numbers which is implemented using key press event capture. Also once ISBN is entered for a book it can't be changed. The only possible way is to remove and insert the ISBN again.",
 		"link": "https://github.com/adityamathur97/Library-Management-System"
 	},
 	{
-		"heading": "Mini-Xception CNN Model",
-		"time": "",
-		"about": "",
-		"link": ""
+		"heading": "Emotion & Gender Detection - Mini-Xception CNN Model",
+		"time": "May 2019",
+		"about": "Facial expressions have a higher importance than other factors like pose, speech, behavior etc since they are easily perceptible. In communicating with others humans, one can recognize emotions of another human with a considerable level of accuracy. Worked on improving the emotion detection from facial expression recognition using the latest Convolution Neural Network(CNN) architecture – Xception architecture. Using the Facial Expression Recognition (FER) dataset provided by a Kaggle challenge which consists of 48×48 pixel gray scale images of faces.",
+		"link": "#"
 	},
 	{
-		"heading": "Comparision of SVM, CNN & ANN",
-		"time": "",
+		"heading": "Emotion Detection - Comparision of SVM, CNN & ANN",
+		"time": "October 2018",
 		"about": "",
-		"link": ""
+		"link": "https://github.com/adityamathur97/Emotion-Detection-using-SVM-CNN-ANN"
 	},
 	{
 		"heading": "Face Recognition Using OpenCV",
 		"time": "",
 		"about": "",
-		"link": ""
+		"link": "#"
 	},
 	{
 		"heading": "MCDA Using Euclidean Distance Method",
 		"time": "",
 		"about": "",
-		"link": ""
+		"link": "#"
 	}
 ]
