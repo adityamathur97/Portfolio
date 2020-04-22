@@ -1,8 +1,10 @@
 .aboutCard {
-	margin: auto;
-	margin-top: 12%;
+	position: relative;
+	margin: 0 auto;
+	margin-top: 0px;
 	width: 80%;
 	display: flex;
+	z-index: 1 !important;
 }
 .aboutCard div {
 	padding: 0%;

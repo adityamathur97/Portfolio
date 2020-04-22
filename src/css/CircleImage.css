@@ -1,11 +1,18 @@
-.userImage {
-	width: 25%;
-	height: auto;
+.userImageDiv {
+	position: relative;
+	margin: 0 auto;
+	width: 200px;
+	height: 200px;
+	overflow: hidden;
 	border-radius: 50%;
 	box-shadow: 0 15px 15px -8px rgba(0, 0, 0, 0.5);
+	z-index: 99 !important;
 }
-.userImageDiv {
-	width: 50%;
-	margin: 0 auto;
-	margin-top: -12%;
+.userImage {
+	position: relative;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	width: 100%;
+	height: auto;
+	z-index: 99 !important;
 }

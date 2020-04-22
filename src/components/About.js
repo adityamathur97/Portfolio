@@ -6,12 +6,10 @@ import $ from 'jquery';
 import CircleImage from './CircleImage';
 
 class About extends React.Component {
-	constructor() {
-		super();
-		this.loadAbout = this.loadAbout.bind(this);
-	}
-
 	componentDidMount() {
+		// 	let calMargin = $('#aboutMe').height() / 2;
+		// 	console.log(calMargin);
+
 		this.loadAbout();
 
 		$('#changeText').fadeOut(0, function() {
@@ -37,16 +35,15 @@ class About extends React.Component {
 		}, 7000);
 	}
 
-	loadAbout() {
+	loadAbout = () => {
 		$(aboutData).each(function() {
 			$('.cardDesc').append(this.text);
 		});
-	}
+	};
 
 	render() {
 		return (
 			<div className="card mb-3 aboutCard shadow p-3 mb-5 bg-white rounded">
-				<CircleImage />
 				<div className="row no-gutters">
 					<div className="col-md-7 textDiv">
 						<div className="card-body">

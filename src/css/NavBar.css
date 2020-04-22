@@ -1,3 +1,7 @@
+.myNavBar {
+	width: 100%;
+	height: auto;
+}
 nav {
 	width: fit-content;
 	margin: 0 auto;

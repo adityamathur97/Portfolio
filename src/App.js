@@ -6,17 +6,19 @@ import About from './components/About';
 import SkyLine from './components/SkyLine';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
+import CircleImage from './components/CircleImage.js';
 
 function App() {
 	return (
 		<div className="App">
-			<NavBar />
 			<div className="bodyContent">
+				<NavBar />
+				<CircleImage />
 				<About />
 				<Projects />
 				<Contact />
+				<SkyLine />
 			</div>
-			<SkyLine />
 		</div>
 	);
 }

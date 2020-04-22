@@ -1,22 +1,24 @@
 .skyLineDiv {
 	background-image: url(../images/skyline-purple.png);
 	width: 100%;
-	height: 80px;
-	background-repeat: repeat;
+	height: 3.3rem;
+	background-repeat: repeat-x;
 	background-size: contain;
-	position: fixed;
 	margin-bottom: 0px;
 	padding-bottom: 0px;
-	bottom: 0;
 }
 .foot {
-	width: fit-content;
+	width: max-content;
+	font-size: 0.8em;
+	padding-bottom: 0px;
+	padding-right: 1%;
+	margin-bottom: 0px;
+	margin-right: 0px;
+	text-align: right;
+	color: white;
+	position: fixed;
 	bottom: 0;
 	right: 0;
-	position: fixed;
-	padding-bottom: 0px;
-	margin-bottom: 0px;
-	color: white;
 }
 .foot img {
 	width: 20%;

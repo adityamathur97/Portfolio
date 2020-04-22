@@ -28,7 +28,7 @@ class Projects extends React.Component {
 		return (
 			<div id="projectLink" className="projectsContainer shadow p-3 mb-5 bg-white rounded">
 				<i className="fas fa-project-diagram clipIcon" />
-				<h1 class="projectHeading">Projects</h1>
+				<h1 className="projectHeading">Projects</h1>
 				<div id="projectContent" />
 			</div>
 		);
