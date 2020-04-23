@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ce87c079b913906c5c52abda089b66f9",
+    "revision": "20fed4e024e396b3b7a01c2d5696e1fb",
     "url": "./index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/css/2.de424728.chunk.css"
   },
   {
-    "revision": "18c1345952a5de999078",
-    "url": "./static/css/main.f947e6ff.chunk.css"
+    "revision": "c505ac0d540bec76d5fe",
+    "url": "./static/css/main.d1dababa.chunk.css"
   },
   {
     "revision": "34e9e2cc3bb99aab309e",
@@ -20,20 +20,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/js/2.a100725f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "18c1345952a5de999078",
-    "url": "./static/js/main.b3995a68.chunk.js"
+    "revision": "c505ac0d540bec76d5fe",
+    "url": "./static/js/main.93885066.chunk.js"
   },
   {
     "revision": "a062e1f0e1f924f559d3",
     "url": "./static/js/runtime-main.2afa580b.js"
-  },
-  {
-    "revision": "e2977c8af61d2208638a4c115050383c",
-    "url": "./static/media/Resume_Aditya_Mathur.e2977c8a.pdf"
-  },
-  {
-    "revision": "e4c25de42623633b3496afca3ce01e06",
-    "url": "./static/media/code.e4c25de4.svg"
   },
   {
     "revision": "6e1267d9d946b0236cdf6ffd02890894",
