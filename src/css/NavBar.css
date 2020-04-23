@@ -1,30 +1,45 @@
+@media screen and (max-width: 992px) {
+	#myNavItemID {
+		text-align: left;
+		background-color: white;
+		color: black;
+	}
+	#myBrand {
+		color: black !important;
+		font-weight: 800;
+	}
+}
+
 .myNavBar {
 	width: 100%;
-	height: auto;
+	box-shadow: 0 15px 15px -8px rgba(0, 0, 0, 0.1);
 }
-nav {
-	width: fit-content;
-	margin: 0 auto;
-	background-color: white;
+
+.myNavbarNav {
+	height: 100%;
+	padding-top: 0;
+	padding-bottom: 0;
 }
-.navbar-brand {
-	padding-right: 30%;
-	margin-right: -20%;
-	font-weight: 800;
-	font-size: larger;
+
+#myBrand {
+	margin-right: 3%;
+	color: white;
 }
-.nav-item {
+
+.myNavBarUl {
+	width: 35%;
+}
+
+.myNavItem {
+	width: 50% !important;
+	text-align: center;
+}
+
+.myNavItem:hover {
+	background-color: #b8bde5;
+	color: white;
+}
+
+.myNavLink {
 	font-weight: 600;
-	margin-right: 1%;
-	font-size: medium;
-}
-#logo {
-	width: 5%;
-	height: 5%;
-}
-.navbar {
-	z-index: 9999;
-}
-.hoverColor:hover {
-	color: #ffdb8a;
 }
