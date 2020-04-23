@@ -43,3 +43,7 @@
 .myNavLink {
 	font-weight: 600;
 }
+
+.myNavLink:visited {
+	color: #7f84ad;
+}

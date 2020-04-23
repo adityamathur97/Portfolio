@@ -12,19 +12,19 @@ class NavBar extends React.Component {
 	}
 
 	changeActive(id) {
-		$('.myLinks').removeClass('active');
-		$(id).addClass('active');
+		$('.myLinks').removeclassName('active');
+		$(id).addclassName('active');
 	}
 
 	render() {
 		return (
 			<div className="myNavBar">
-				<nav class="myNavbarNav navbar navbar-expand-lg navbar-light">
-					<span id="myBrand" class="navbar-brand" href="#">
+				<nav className="myNavbarNav navbar navbar-expand-lg navbar-light">
+					<span id="myBrand" className="navbar-brand" href="#">
 						Portfolio
 					</span>
 					<button
-						class="navbar-toggler"
+						className="navbar-toggler"
 						type="button"
 						data-toggle="collapse"
 						data-target="#navbarNav"
@@ -32,27 +32,27 @@ class NavBar extends React.Component {
 						aria-expanded="false"
 						aria-label="Toggle navigation"
 					>
-						<span class="navbar-toggler-icon" />
+						<span className="navbar-toggler-icon" />
 					</button>
-					<div class="collapse navbar-collapse" id="navbarNav">
-						<ul class="navbar-nav myNavBarUl">
-							<li id="myNavItemID" class="nav-item myNavItem">
-								<a class="nav-link myNavLink" href="#">
+					<div className="collapse navbar-collapse" id="navbarNav">
+						<ul className="navbar-nav myNavBarUl">
+							<li id="myNavItemID" className="nav-item myNavItem">
+								<a className="nav-link myNavLink" href="#aboutMe">
 									About
 								</a>
 							</li>
-							<li id="myNavItemID" class="nav-item myNavItem">
-								<a class="nav-link myNavLink" href="#">
+							<li id="myNavItemID" className="nav-item myNavItem">
+								<a className="nav-link myNavLink" href="#projectLink">
 									Projects
 								</a>
 							</li>
-							<li id="myNavItemID" class="nav-item myNavItem">
-								<a class="nav-link myNavLink" href="#">
+							<li id="myNavItemID" className="nav-item myNavItem">
+								<a className="nav-link myNavLink" href="#">
 									Skills
 								</a>
 							</li>
-							<li id="myNavItemID" class="nav-item myNavItem">
-								<a class="nav-link myNavLink" href="#">
+							<li id="myNavItemID" className="nav-item myNavItem">
+								<a className="nav-link myNavLink" href="#contactLink">
 									Contact
 								</a>
 							</li>
