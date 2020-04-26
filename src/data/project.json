@@ -1,5 +1,11 @@
 [
 	{
+		"heading": "Multi-Dimensional Search",
+		"time": "April 2020",
+		"about": "Developed a  search algorithm like the ones used in websites like Amazon, having thousands of products with unique ID, price and description of its own. Organized the data using TreeMap and obtained insertion, deletion, searching, modification & sorting operations using HashMap and TreeSet. The algorithm can perform said operations on hundreds of thousands of entities within seconds.",
+		"link": "https://github.com/adityamathur97/Multidimensional-Search"
+	},
+	{
 		"heading": "Portfolio",
 		"time": "April 2020",
 		"about": "Developed a Portfolio website using React JS. I made this website as a side project while learning React. The website uses Bootstrap for styling and to make the website responsive for different platforms. Jquery is used for DOM tree traversal and manipulation, as well as some event handling, CSS animation, and AJAX. The text data is retrived asynchronously using AJAX calls.",
@@ -32,19 +38,13 @@
 	{
 		"heading": "Emotion Detection - Comparision of SVM, CNN & ANN",
 		"time": "October 2018",
-		"about": "",
+		"about": "Many factors contribute in conveying emotions of an individual. Pose, speech, facial expressions, behavior and actions are some of them. From these above mentioned factors, facial expressions have a higher importance since they are easily perceptible. Keeping that in mind we developed a expression recognition program using machine learning algorithms like SVM, CNN and ANN. We compared the recognition rate of each algortihm on same image dataset and logged the results based on our observations.",
 		"link": "https://github.com/adityamathur97/Emotion-Detection-using-SVM-CNN-ANN"
-	},
-	{
-		"heading": "Face Recognition Using OpenCV",
-		"time": "",
-		"about": "",
-		"link": "#"
 	},
 	{
 		"heading": "MCDA Using Euclidean Distance Method",
 		"time": "",
 		"about": "",
-		"link": "#"
+		"link": "https://github.com/adityamathur97/Multi-Criteria-Decision-Analysis"
 	}
 ]

@@ -1,3 +1,6 @@
+@media screen and (max-width: 992px) {
+}
+
 .skyLineDiv {
 	background-image: url(../images/skyline-purple.png);
 	width: 100%;
@@ -6,21 +9,28 @@
 	background-size: contain;
 	margin-bottom: 0px;
 	padding-bottom: 0px;
+	position: relative;
 }
+
 .foot {
-	width: max-content;
-	font-size: 0.8em;
-	padding-bottom: 0px;
-	padding-right: 1%;
-	margin-bottom: 0px;
-	margin-right: 0px;
-	text-align: right;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	margin-bottom: 0;
+	font-weight: 500;
 	color: white;
+}
+
+.foot img {
+	width: 20px;
+	height: auto;
 	position: fixed;
 	bottom: 0;
 	right: 0;
+	margin-right: 5px;
+	margin-bottom: 2px;
 }
-.foot img {
-	width: 20%;
-	height: auto;
+
+.foot span {
+	margin-right: 35px;
 }

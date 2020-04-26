@@ -27,7 +27,10 @@ class Projects extends React.Component {
 	render() {
 		return (
 			<div id="projectLink" className="projectsContainer shadow p-3 mb-5 bg-white rounded">
-				<i className="fas fa-project-diagram clipIcon" />
+				<div className="clipDiv">
+					{' '}
+					<i className="fas fa-project-diagram clipIcon" />
+				</div>
 				<h1 className="projectHeading">Projects</h1>
 				<div id="projectContent" />
 			</div>

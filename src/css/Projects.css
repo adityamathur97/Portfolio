@@ -3,13 +3,20 @@
 	margin-top: 12%;
 	width: 80%;
 }
+.clipDiv {
+	text-align: center;
+}
 .clipIcon {
 	font-size: 3em;
 	color: #61688e;
+	margin-top: 1%;
 }
 .projectHeading {
 	color: #b4b9e7;
+	width: fit-content;
+	margin: 0 auto;
 	margin-top: 1%;
+	margin-bottom: 2%;
 }
 .clipIcon:hover {
 	color: #b4b9e7;
