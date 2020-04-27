@@ -34,11 +34,11 @@
 .contButton {
 	background-color: #61688e;
 	border: 0px;
-	margin-right: 72%;
+	margin-left: 5%;
 	margin-top: 12%;
 
 	color: white;
-	font-size: 1.3em;
+	font-size: 1.2em;
 	font-weight: 500;
 	border-radius: 48%;
 }
@@ -47,6 +47,14 @@
 	color: white;
 }
 .contButton:focus {
+	background-color: #ffdb8a;
+	border: 0px;
+}
+.contButton a {
+	color: inherit;
+}
+
+.contButton a:focus {
 	background-color: #ffdb8a;
 	border: 0px;
 }

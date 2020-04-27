@@ -43,8 +43,8 @@
 	},
 	{
 		"heading": "MCDA Using Euclidean Distance Method",
-		"time": "",
-		"about": "",
+		"time": "August 2017",
+		"about": "In our daily life we come across many decision like choosing which route to take to go to work or what to eat for lunch etc and all this decision are based on certain criteria. Making a choice about a certain thing can be very difficult sometimes or sometimes even impossible because we have a variety of choices and we make our choices based on different criteria having some positive and some negative attributes. This process by which one rank and compare different alternatives is known as “Multi Criteria Decision Making/Analysis”. I implemented Distance based approach which uses Euclidean distance method in MCDA to find the best possible outcome depending upon the given attributes.",
 		"link": "https://github.com/adityamathur97/Multi-Criteria-Decision-Analysis"
 	}
 ]

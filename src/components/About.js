@@ -3,7 +3,6 @@ import aboutData from '../data/about.json';
 
 import '../css/About.css';
 import $ from 'jquery';
-import CircleImage from './CircleImage';
 
 class About extends React.Component {
 	componentDidMount() {
@@ -51,8 +50,11 @@ class About extends React.Component {
 								Hello Folks! I'm <span id="changeText">Aditya Mathur</span>
 							</h1>
 							<p className="card-text cardDesc" />
-							<button type="button" className="btn btn-lg contButton  shadow-sm">
-								Resume <i className="fas fa-file-download" />
+
+							<button type="button" className="btn btn-lg contButton shadow-sm">
+								<a href={require('../resume/Resume_Aditya_Mathur.pdf')}>
+									Resume <i className="fas fa-file-download" />
+								</a>
 							</button>
 						</div>
 					</div>

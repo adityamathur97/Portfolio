@@ -5,7 +5,9 @@ class Contact extends React.Component {
 	render() {
 		return (
 			<div id="contactLink" className="contactContainer shadow p-3 mb-5 bg-white rounded">
-				<i className="fas fa-phone clipIcon" />
+				<div className="clipDiv">
+					<i className="fas fa-phone clipIcon" />
+				</div>
 				<h1 className="projectHeading">Get in touch</h1>
 				<div className="allMedia">
 					<div className="mediaIconDiv">
