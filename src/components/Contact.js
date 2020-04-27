@@ -4,36 +4,46 @@ import '../css/Contact.css';
 class Contact extends React.Component {
 	render() {
 		return (
-			<div id="contactLink" className="contactContainer shadow p-3 mb-5 bg-white rounded">
-				<div className="clipDiv">
-					<i className="fas fa-phone clipIcon" />
-				</div>
-				<h1 className="projectHeading">Get in touch</h1>
-				<div className="allMedia">
-					<div className="mediaIconDiv">
-						<a target="_blank" href="#">
-							<i className="fas fa-envelope media" />
-						</a>
+			<div id="contactLink">
+				<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+
+				<div className="content contentContact">
+					<div
+						onClick={() => window.open('mailto:adityamathur97@gmail.com', '_blank')}
+						className="card cardContact"
+					>
+						<div className="icon">
+							<i style={{ fontSize: '2.5em' }} class="fas fa-envelope" />
+						</div>
+						<p className="title titleContact">Mail</p>
+						<p style={{ fontWeight: '400' }} className="text textContact">
+							Send me your query!
+						</p>
 					</div>
-					<div className="mediaIconDiv">
-						<a target="_blank" href="">
-							<i className="fab fa-linkedin media" />
-						</a>
+					<div
+						onClick={() => window.open('https://www.linkedin.com/in/adityamathur97/', '_blank')}
+						className="card cardContact"
+					>
+						<div className="icon linkedin">
+							<i className="linkedin" style={{ fontSize: '2.5em' }} class="fab fa-linkedin-in" />
+						</div>
+						<p className="title titleContact">Linked In</p>
+						<p style={{ fontWeight: '400' }} className="text textContact">
+							Connect with me on LinkedIn.
+						</p>
 					</div>
-					<div className="mediaIconDiv">
-						<a target="_blank" href="">
-							<i className="fab fa-github-square media" />
-						</a>
-					</div>
-					<div className="mediaIconDiv">
-						<a target="_blank" href="">
-							<i className="fab fa-facebook media" />
-						</a>
-					</div>
-					<div className="mediaIconDiv">
-						<a target="_blank" href="">
-							<i className="fab fa-twitter-square media" />
-						</a>
+
+					<div
+						onClick={() => window.open('https://github.com/adityamathur97', '_blank')}
+						className="card cardContact"
+					>
+						<div className="icon github">
+							<i style={{ fontSize: '2.5em' }} class="fab fa-github" />
+						</div>
+						<p className="title titleContact">Github</p>
+						<p style={{ fontWeight: '400' }} className="text textContact">
+							Take a look at my projects.
+						</p>
 					</div>
 				</div>
 			</div>

@@ -47,8 +47,12 @@ class NavBar extends React.Component {
 								</a>
 							</li>
 							<li id="myNavItemID" className="nav-item myNavItem">
-								<a className="nav-link myNavLink" href="#">
-									Skills
+								<a
+									className="nav-link myNavLink"
+									href={require('../resume/Resume_Aditya_Mathur.pdf')}
+									target="_blank"
+								>
+									Resume
 								</a>
 							</li>
 							<li id="myNavItemID" className="nav-item myNavItem">
