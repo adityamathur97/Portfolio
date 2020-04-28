@@ -51,6 +51,7 @@ class NavBar extends React.Component {
 									className="nav-link myNavLink"
 									href={require('../resume/Resume_Aditya_Mathur.pdf')}
 									target="_blank"
+									rel="noopener noreferrer"
 								>
 									Resume
 								</a>

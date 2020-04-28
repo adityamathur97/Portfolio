@@ -13,7 +13,7 @@ class Contact extends React.Component {
 						className="card cardContact"
 					>
 						<div className="icon">
-							<i style={{ fontSize: '2.5em' }} class="fas fa-envelope" />
+							<i style={{ fontSize: '2.5em' }} className="fas fa-envelope" />
 						</div>
 						<p className="title titleContact">Mail</p>
 						<p style={{ fontWeight: '400' }} className="text textContact">
@@ -25,7 +25,7 @@ class Contact extends React.Component {
 						className="card cardContact"
 					>
 						<div className="icon linkedin">
-							<i className="linkedin" style={{ fontSize: '2.5em' }} class="fab fa-linkedin-in" />
+							<i className="linkedin" style={{ fontSize: '2.5em' }} className="fab fa-linkedin-in" />
 						</div>
 						<p className="title titleContact">Linked In</p>
 						<p style={{ fontWeight: '400' }} className="text textContact">
@@ -38,7 +38,7 @@ class Contact extends React.Component {
 						className="card cardContact"
 					>
 						<div className="icon github">
-							<i style={{ fontSize: '2.5em' }} class="fab fa-github" />
+							<i style={{ fontSize: '2.5em' }} className="fab fa-github" />
 						</div>
 						<p className="title titleContact">Github</p>
 						<p style={{ fontWeight: '400' }} className="text textContact">
