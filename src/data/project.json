@@ -8,7 +8,7 @@
 	{
 		"heading": "Portfolio",
 		"time": "April 2020",
-		"about": "Developed a Portfolio website using React JS. I made this website as a side project while learning React. The website uses Bootstrap for styling and to make the website responsive for different platforms. Jquery is used for DOM tree traversal and manipulation, as well as some event handling, CSS animation, and AJAX. The text data is retrived asynchronously using AJAX calls.",
+		"about": "Developed a Portfolio website using React JS. The website uses Bootstrap for styling and to make the website responsive for different platforms. Jquery is used for DOM tree traversal and manipulation, as well as some event handling, CSS animation, and AJAX. The text data is retrived asynchronously using AJAX calls.",
 		"link": "https://github.com/adityamathur97/Portfolio"
 	},
 	{
@@ -44,7 +44,7 @@
 	{
 		"heading": "MCDA Using Euclidean Distance Method",
 		"time": "August 2017",
-		"about": "In our daily life we come across many decision like choosing which route to take to go to work or what to eat for lunch etc and all this decision are based on certain criteria. Making a choice about a certain thing can be very difficult sometimes or sometimes even impossible because we have a variety of choices and we make our choices based on different criteria having some positive and some negative attributes. This process by which one rank and compare different alternatives is known as “Multi Criteria Decision Making/Analysis”. I implemented Distance based approach which uses Euclidean distance method in MCDA to find the best possible outcome depending upon the given attributes.",
+		"about": "Making a choice about a certain thing can be very difficult or sometimes even impossible because of variety of choices. We make our choices based on different criteria having some positive or negative attributes. So, I implemented Multi Criteria Decision Making/Analysis using Euclidean distance method by which we can rank and compare different alternatives based on number of criterias and their weights and calculate the best possible outcome.",
 		"link": "https://github.com/adityamathur97/Multi-Criteria-Decision-Analysis"
 	}
 ]

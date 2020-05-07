@@ -34,13 +34,13 @@
 .contButton {
 	background-color: #61688e;
 	border: 0px;
-	margin-left: 5%;
-	margin-top: 12%;
 
 	color: white;
 	font-size: 1.2em;
 	font-weight: 500;
 	border-radius: 48%;
+
+	margin-left: 3.5%;
 }
 .contButton:hover {
 	background-color: #b8bee6;

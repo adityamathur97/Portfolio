@@ -45,17 +45,17 @@ class About extends React.Component {
 			<div className="card mb-3 aboutCard shadow p-3 mb-5 bg-white rounded">
 				<div className="row no-gutters">
 					<div className="col-md-7 textDiv">
-						<div className="card-body">
+						<div className="card-body blah">
 							<h1 className="card-title cardHeading">
 								Hello Folks! I'm <span id="changeText">Aditya Mathur</span>
 							</h1>
 							<p className="card-text cardDesc" />
-
-							<button type="button" className="btn btn-lg contButton shadow-sm">
-								<a href={require('../resume/Resume_Aditya_Mathur.pdf')}>
-									Resume <i className="fas fa-file-download" />
-								</a>
-							</button>
+							<a
+								className="btn btn-lg contButton shadow-sm"
+								href={require('../resume/Resume_Aditya_Mathur.pdf')}
+							>
+								Resume <i className="fas fa-file-download" />
+							</a>
 						</div>
 					</div>
 					<div className="col-md-5">
